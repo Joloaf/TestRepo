@@ -13,5 +13,13 @@ namespace GitDemo
         {
             Console.WriteLine("I'm detective John Kimble!");
         }
+
+        public static void MyLoop()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
